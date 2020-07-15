@@ -1,5 +1,4 @@
 # "GIMME PIZZA!" Project #
-
 ***
 
 Welcome, **DEV**!
@@ -9,31 +8,32 @@ We expect to address all your concerns and doubts in this document, but if you n
 We wish you a great journey and we hope you enjoy this project like we do, cause we lo__<3__ pizza! LOL
 
 ***
-
 ## What kind of features should this project contain? ##
 
 1. Create configurable Order registration
-	* Auto-generated order number
+	* Auto-generated Order number
 	* Whole pizza or Half'n'Half
 	* Thin-Crust or Thick-Crust pizza dough
 	* Extra sauce
-	* Pizza flavors (consider half dozen of options)
-	* Item removal ("no onion", "no garlic", etc)
-	* Special request / Client observation (send me a message when you arrive, exchange black olive for green ones, etc)
+	* Pizza flavors (consider six options of your preference)
+	* Observation ("Send message to client prior to delivery", "Exchange black olives for green ones", etc)
+2. Create basic client registration
+	* Full name
+	* ID (CPF)
+	* Contacts (email, phones)
+	* Client address
 	* Delivery address
-2. Create basic clientele registration (Full Name, Contacts, Address, ID)
-3. Allow delivery address to be customizable (different from the registered client address)
+3. Allow delivery to be customizable
 	* Scheduled Order (Mon~Sat, from 6PM to 12AM with a 2H window)
+	* Delivery address can be different from the registered client address
 4. Import pizza Order from a XML or a JSON file (feel free to define the message format)
 5. Create Order workflow (suggested statuses: OPEN, CONTACT CLIENT, PREPARING, OUT FOR DELIVERY, CANCELED, DONE)
 	* Allow Order configuration by the system owner in OPEN and CONTACT CLIENT statuses
-6. Provide list and bucket views (by status) of Orders (consider pagination)
-7. Provide Order details view (must be separated by client data, pizza data and delivery data categories)
-	* Allow an extra observation field for system owner
-8. Provide "Orders of the day" view
-9. Enable Orders advanced properties search
-10. Enable batch status change to Orders
-11. Export Orders to a file (preferably to a sheet)
+6. Provide list and bucket (by status) views of Orders (consider pagination)
+7. Provide Order details view (must be separated in client data, pizza data and delivery data sections)
+8. Enable Orders filtering by Order number and by ID (CPF)
+9. Enable batch changes to Orders status
+10. Export Orders to a file (preferably to a sheet)
 
 Now, if you have **ninja skills** and you are like this guy:
 
@@ -46,11 +46,28 @@ Now, if you have **ninja skills** and you are like this guy:
 	* Number of the last delivered Order
 	* Number of scheduled Orders for the day
 	* Most ordered pizza flavor historically
-2. Provide Order history view by client
-3. Export client Order history to a sheet
+2. Provide "Orders of the day" view
+3. Provide Order history view by client
+4. Export client Order history to a sheet
 
 ***
+## What you don't need to consider ##
 
+YOU **SHOULD NOT** CONSIDER:
+
+1. Shopping cart view
+2. Pizza prices or anything related to products value
+
+***
+## So, what's the idea behind this project? ##
+
+Well, basically, what we expect is that you are able to create a project which allows the system owners to register pizza Orders and to be able to follow these Orders workflow through facilated and comfortable views. 
+
+In this way, they will be able to have a well organized environment that helps them on their business decision making.
+
+This is specially important, because, in short, the tasks described here reflect what you will do in a daily basis at Frezze and this is essential so our business can thrive!
+
+***
 ## What guidelines do I need to follow? ##
 
 1. There are no restrictions regarding any frontend or backend development frameworks used in this project
@@ -72,7 +89,6 @@ Now, if you have **ninja skills** and you are like this guy:
 	* Applied concepts in the backend development (be it a REST or GraphQL API)
 
 ***
-
 ## Who do I talk to? ##
 
 If you have any concerns, doubts or requests, please, feel free to reach us out through:
