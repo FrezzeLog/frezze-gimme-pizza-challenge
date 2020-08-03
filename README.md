@@ -57,6 +57,9 @@ YOU **SHOULD NOT** CONSIDER:
 
 1. Shopping cart view
 2. Pizza prices or anything related to products value
+3. Architectural concepts and complexity related to the back-end API
+	* All you need to do is expose a simple API to serve the data to your front-end (resource endpoints).
+	* If you prefer, the data can be mocked or saved in a file or in an in-memory structure. There is no need to create a database or to worry about data modeling concepts.
 
 ***
 ## So, what's the idea behind this project? ##
