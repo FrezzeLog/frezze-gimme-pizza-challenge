@@ -64,7 +64,7 @@ YOU **SHOULD NOT** CONSIDER:
 ***
 ## So, what's the idea behind this project? ##
 
-Well, basically, what we expect is that you are able to create a project which allows the system owners to register pizza Orders and to be able to follow these Orders workflow through facilitated and comfortable views. 
+Well, basically, what we expect is that you are able to create a project which allows the attendant to register pizza Orders and to be able to follow these Orders workflow through facilitated and comfortable views. 
 
 In this way, they will be able to have a well organized environment that helps them on their business decision making.
 
