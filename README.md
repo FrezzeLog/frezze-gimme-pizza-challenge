@@ -23,7 +23,7 @@ We wish you a great journey and we hope you enjoy this project like we do, cause
 	* Contacts (email and phone)
 	* Client address
 3. Allow delivery to be customizable
-	* Scheduled Order (Mon~Sat, from 6PM to 12AM with a 2H window)
+	* Scheduled Order (Mon~Sat, from 6PM to 12AM)
 	* Delivery address can be different from the registered client address
 4. Import pizza Order from a XML or a JSON file (feel free to define the message format)
 5. Create Order workflow (suggested statuses: OPEN, CONTACT CLIENT, PREPARING, OUT FOR DELIVERY, CANCELED, DONE)
