@@ -22,7 +22,6 @@ We wish you a great journey and we hope you enjoy this project like we do, cause
 	* ID (CPF)
 	* Contacts (email, phones)
 	* Client address
-	* Delivery address
 3. Allow delivery to be customizable
 	* Scheduled Order (Mon~Sat, from 6PM to 12AM with a 2H window)
 	* Delivery address can be different from the registered client address
