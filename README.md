@@ -20,7 +20,7 @@ We wish you a great journey and we hope you enjoy this project like we do, cause
 2. Create basic client registration
 	* Full name
 	* ID (CPF)
-	* Contacts (email, phones)
+	* Contacts (email and phone)
 	* Client address
 3. Allow delivery to be customizable
 	* Scheduled Order (Mon~Sat, from 6PM to 12AM with a 2H window)
