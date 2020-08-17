@@ -30,7 +30,7 @@ We wish you a great journey and we hope you enjoy this project like we do, cause
 	* Allow Order configuration by the system owner in OPEN and CONTACT CLIENT statuses
 6. Provide list and bucket (by status) views of Orders (consider pagination)
 7. Provide Order details view (must be separated in client data, pizza data and delivery data sections)
-8. Enable Orders filtering by Order number and by ID (CPF)
+8. Enable Orders filtering by Order number and by client ID (CPF)
 9. Enable batch changes to Orders status
 10. Export Orders to a file (preferably to a sheet)
 
