@@ -11,11 +11,11 @@ We wish you a great journey and we hope you enjoy this project like we do, cause
 ## What kind of features should this project contain? ##
 
 1. Create configurable Order registration
-	* Auto-generated Order number
+	* Pizza Size (Defined options: P, M, G)
 	* Whole pizza or Half'n'Half
 	* Thin-Crust or Thick-Crust pizza dough
 	* Extra sauce
-	* Pizza flavors (consider six options of your preference)
+	* Pizza flavors (Defined options: MARGUETIRA, CALABRESA, PEPPERONI, FRANGO_COM_CATUPIRY, PORTUGUES, QUATRO_QUEIJOS)
 	* Observation ("Send message to client prior to delivery", "Exchange black olives for green ones", etc)
 2. Create basic client registration
 	* Full name
@@ -25,10 +25,10 @@ We wish you a great journey and we hope you enjoy this project like we do, cause
 3. Allow delivery to be customizable
 	* Scheduled Order (Mon~Sat, from 6PM to 12AM)
 	* Delivery address can be different from the registered client address
-4. Import pizza Order from a XML or a JSON file (feel free to define the message format)
-5. Create Order workflow (suggested statuses: OPEN, CONTACT CLIENT, PREPARING, OUT FOR DELIVERY, CANCELED, DONE)
-	* Allow Order configuration by the system owner in OPEN and CONTACT CLIENT statuses
-6. Provide list and bucket (by status) views of Orders (consider pagination)
+4. Import pizza Order from a XML or a JSON file
+5. Create Order workflow (Defined statuses: ABERTO, CONTATAR_CLIENTE, PREPARANDO, SAIU_PARA_ENTREGA, CANCELADO, FINALIZADO)
+	* Allow Order configuration by the system owner in ABERTO and CONTATAR_CLIENTE statuses
+6. Provide list and bucket (by status) views of Orders (should consider pagination)
 7. Provide Order details view (must be separated in client data, pizza data and delivery data sections)
 8. Enable Orders filtering by Order number and by client ID (CPF)
 9. Enable batch changes to Orders status
@@ -41,7 +41,7 @@ Now, if you have **ninja skills** and you are like this guy:
 ## Here are some extra stuff you can do to show your commitment and your "AWESOMENESS": ##
 
 1. Create a dashboard with a few informations:
-	* Number of Orders in PREPARING status
+	* Number of Orders in PREPARANDO status
 	* Number of the last delivered Order
 	* Number of scheduled Orders for the day
 	* Most ordered pizza flavor historically
@@ -54,11 +54,8 @@ Now, if you have **ninja skills** and you are like this guy:
 
 YOU **SHOULD NOT** CONSIDER:
 
-1. Shopping cart view
+1. Shopping cart view (although it's recommended to think about a checkt-out feature)
 2. Pizza prices or anything related to products value
-3. Architectural concepts and complexity related to the back-end API
-	* All you need to do is expose a simple API to serve the data to your front-end (resource endpoints)
-	* If you prefer, the data can be mocked or saved in a file or in an in-memory structure. There is no need to create a database or to worry about data modeling concepts
 
 ***
 ## So, what's the idea behind this project? ##
@@ -72,13 +69,13 @@ This is specially important, because, in short, the tasks described here reflect
 ***
 ## What guidelines do I need to follow? ##
 
-1. There are no restrictions regarding any frontend or backend development frameworks used in this project
-	* Feel free to choose the stack that most suits you. Yet, it's important for you to know that Frezze's applicatons are currently developed in Angular + Spring Boot
+1. There are no restrictions regarding frontend development frameworks used in this project
+	* Feel free to choose the technology that most suits you. Yet, it's important for you to know that Frezze's applicatons are currently developed in Angular + Spring Boot
 2. The source code must be available through a public project in any Git repository hosting service of your preference
 3. The provided repository must contain a README with a brief explanation about the project and with the steps in order to run the project successfully
 	* Include any details if needed
 	* Docker images are welcome
-4. Both application (frontend and backend) must be accessible through the cloud
+4. The frontend application must be accessible through the cloud
 	* You may use any cloud service of your preference (Firebase, Heroku, DO, AWS, etc)
 5. For the evaluation process, we will consider the following:
 	* Developed features
@@ -88,7 +85,7 @@ This is specially important, because, in short, the tasks described here reflect
 	* Componentization
 	* Developed tests
 	* Frontend application design
-	* Applied concepts in the backend development (be it a REST or GraphQL API)
+	* User experience
 
 ***
 ## Who do I talk to? ##
