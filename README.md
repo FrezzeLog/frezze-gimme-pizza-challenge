@@ -88,6 +88,17 @@ This is specially important, because, in short, the tasks described here reflect
 	* User experience
 
 ***
+## Right, so where's the API that I'll use? ##
+
+In order to let you focus on what matters - create an amazing frontend application - we rolled out an initial version of our own Gimme Pizza API.
+
+The API is being hosted [here](https://gimme-pizza-api.herokuapp.com).
+
+For more details and informations on how to consume the API, access the [documentation](https://documenter.getpostman.com/view/12428975/T1LV83UP?version=latest).
+
+If you have any doubts or issues related to the API, let us know.
+
+***
 ## Who do I talk to? ##
 
 If you have any concerns, doubts or requests, please, feel free to reach us out through:
