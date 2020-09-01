@@ -26,7 +26,7 @@ We wish you a great journey and we hope you enjoy this project like we do, cause
 	* Scheduled Order (Mon~Sat, from 6PM to 12AM)
 	* Delivery address can be different from the registered client address
 4. Import pizza Order from a XML or a JSON file
-5. Create Order workflow (Defined statuses: ABERTO, CONTATAR_CLIENTE, PREPARANDO, SAIU_PARA_ENTREGA, CANCELADO, FINALIZADO)
+5. Create Order workflow (Defined statuses: ABERTO, CONTATAR_CLIENTE, PREPARANDO, SAIU_PARA_ENTREGA, ENTREGUE, CANCELADO, FINALIZADO)
 	* Allow Order configuration by the system owner in ABERTO and CONTATAR_CLIENTE statuses
 6. Provide list and bucket (by status) views of Orders (should consider pagination)
 7. Provide Order details view (must be separated in client data, pizza data and delivery data sections)
