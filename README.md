@@ -15,7 +15,7 @@ We wish you a great journey and we hope you enjoy this project like we do, cause
 	* Whole pizza or Half'n'Half
 	* Thin-Crust or Thick-Crust pizza dough
 	* Extra sauce
-	* Pizza flavors (Defined options: MARGUETIRA, CALABRESA, PEPPERONI, FRANGO_COM_CATUPIRY, PORTUGUESA, QUATRO_QUEIJOS)
+	* Pizza flavors (Defined options: MARGUERITA, CALABRESA, PEPPERONI, FRANGO_COM_CATUPIRY, PORTUGUESA, QUATRO_QUEIJOS)
 	* Observation ("Send message to client prior to delivery", "Exchange black olives for green ones", etc)
 2. Create basic client registration
 	* Full name
